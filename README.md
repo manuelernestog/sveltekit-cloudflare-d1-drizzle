@@ -25,7 +25,7 @@ pnpm db:studio
 ### Push data
 
 ```bash
-pnpm db:push
+pnpm db:push:local
 ```
 
 ### Run the app

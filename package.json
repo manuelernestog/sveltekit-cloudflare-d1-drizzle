@@ -11,7 +11,7 @@
     "deploy": "npm run build && wrangler pages deploy",
     "cf-typegen": "wrangler types && mv worker-configuration.d.ts src/",
     "db:migrate": "pnpm drizzle-kit generate",
-    "db:push": " npx wrangler d1 migrations apply  blog-products-db --local",
+    "db:push:local": " npx wrangler d1 migrations apply  blog-products-db --local",
     "db:studio": "drizzle-kit studio"
   },
   "devDependencies": {
