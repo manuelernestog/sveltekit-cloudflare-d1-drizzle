@@ -12,7 +12,8 @@
     "cf-typegen": "wrangler types && mv worker-configuration.d.ts src/",
     "db:migrate": "pnpm drizzle-kit generate",
     "db:push:local": " npx wrangler d1 migrations apply  blog-products-db --local",
-    "db:studio": "drizzle-kit studio"
+    "db:studio": "drizzle-kit studio",
+    "db:seeds": "node src/lib/db/seeds.js"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240821.1",
