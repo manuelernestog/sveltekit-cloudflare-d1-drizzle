@@ -11,9 +11,10 @@
     "deploy": "npm run build && wrangler pages deploy",
     "cf-typegen": "wrangler types && mv worker-configuration.d.ts src/",
     "db:migrate": "pnpm drizzle-kit generate",
-    "db:push:local": " npx wrangler d1 migrations apply  blog-products-db --local",
+    "db:push:local": " npx wrangler d1 migrations apply blog-products-db --local",
     "db:studio": "drizzle-kit studio",
-    "db:seeds": "node src/lib/db/seeds.js"
+    "db:generate:seeds": "node src/lib/db/seeds.js",
+    "db:push:seeds": "npx wrangler d1 execute blog-products-db --local --file seeds.sql"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240821.1",

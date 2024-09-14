@@ -1,9 +1,9 @@
 import fs from "fs";
 
 const productData = [
-  { productId: 1, name: "Apple", price: 250 },
-  { productId: 2, name: "Banana", price: 100 },
-  { productId: 3, name: "Cherry", price: 375 },
+  { product_id: 1, name: "Apple", price: 250 },
+  { product_id: 2, name: "Banana", price: 100 },
+  { product_id: 3, name: "Cherry", price: 375 },
 ];
 
 const generateInsertSQL = (tableName, data) => {

@@ -28,12 +28,23 @@ pnpm db:studio
 pnpm db:push:local
 ```
 
+### Generate seeds
+
+```bash
+pnpm db:generate:seeds
+```
+
+### Push seeds
+
+```bash
+pnpm db:push:seeds  
+```
+
 ### Run the app
 
 ```bash
 pnpm dev
 ```
-
 
 Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
 
