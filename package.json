@@ -13,7 +13,7 @@
     "db:migrate": "pnpm drizzle-kit generate",
     "db:push:local": " npx wrangler d1 migrations apply blog-products-db --local",
     "db:studio": "drizzle-kit studio",
-    "db:generate:seeds": "node src/lib/db/seeds.js",
+    "db:generate:seeds": "node functions/seeds.js",
     "db:push:seeds": "npx wrangler d1 execute blog-products-db --local --file seeds.sql"
   },
   "devDependencies": {
