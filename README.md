@@ -48,7 +48,7 @@ pnpm dev
 
 ### Drizzle Studio
 
-To run dreaze studio go to drizzle.config.ts and change the dbCredentials to your db in .wrangler folder then run `pnpm db:studio`
+To run Drizzle Studio go to drizzle.config.ts and change the dbCredentials to your db in .wrangler folder then run `pnpm db:studio`
 
 Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
 
