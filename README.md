@@ -16,12 +16,6 @@ pnpm install
 pnpm db:migrate
 ```
 
-### Initialize database
-
-```bash
-pnpm db:studio
-```
-
 ### Push data
 
 ```bash
