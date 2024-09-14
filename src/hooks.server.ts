@@ -1,10 +1,6 @@
-// /src/hooks.server.ts
 import { dev } from '$app/environment';
 import type { Handle } from '@sveltejs/kit';
 import { drizzle } from "drizzle-orm/d1";
-
-// When developing, this hook will add proxy objects to the `platform` object
-// which will emulate any bindings defined in `wrangler.toml`.
 
 let platform: App.Platform;
 
